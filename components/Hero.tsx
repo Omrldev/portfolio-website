@@ -30,9 +30,13 @@ const Hero = () => {
           </div>
 
           {/* RIGHT */}
-          <img className="img-animation lg:w-[350px]" src="/profile.png">
-          </img>
-      
+          <Image
+            src="/profile.png"
+            alt="profile"
+            width={150}
+            height={150}
+            className="img-animation lg:w-[350px]" 
+          />
         </div>
       </section>
     </div>
