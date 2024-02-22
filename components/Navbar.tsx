@@ -53,31 +53,9 @@ const Navbar = () => {
                   </Link>
                 ))}
               </ul>
-            </div>
-              
+            </div>              
           </div>
         </div>
-        {/** Close icon 
-        <div
-          className=
-            "fixed backdrop-blur-md bg-black/50 top-0 right-0 h-full w-screen -translate-x-full">
-          <div className="bg-white absolute h-screen w-60 flex flex-col gap-16 p-10">
-            <XMarkIcon
-              onClick={() => setMenu(!menu)}
-              className="size-6 cursor-pointer hover:text-blue-500 mt-10 mx-auto"
-            />
-            <ul className="flex flex-col gap-10 mx-auto">
-              {navLinks.map((link) => (
-                <Link
-                  href={link.href} key={link.key}
-                  className="no-underline text-gray-900 hover:text-blue-500 text-lg text-center"
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </ul>
-          </div>
-              </div>*/}
       </nav>
     </header>
   );

@@ -4,41 +4,81 @@ const About = () => {
   return (
     <section id="about" className="mx-auto max-w-[1440px]">
       <div className="grid justify-center mb-20 lg:flex lg:gap-20">
-        {/* skills */}
+        {/** skills */}
         <p className="mx-auto mb-8 text-xl mt-3 lg:-mx-5 lg:-ml-16 lg:font-medium">
           Skills
         </p>
         <div className="">
           <u className="list-none grid grid-cols-2 gap-y-6 gap-x-8 lg:flex">
             <li>
-              <img
-                className="w-28"
-                src="https://skillicons.dev/icons?i=dotnet,cs"
+              <Image
+                src="cs.svg"
+                alt="csharp"
+                width={68}
+                height={68}
               />
             </li>
             <li>
-              <img
-                className="w-28"
-                src="https://skillicons.dev/icons?i=react,next"
+            <Image
+                src="dotnet.svg"
+                alt="dotnet"
+                width={68}
+                height={68}
               />
             </li>
             <li>
-              <img
-                className="w-28"
-                src="https://skillicons.dev/icons?i=typescript,tailwind"
+            <Image
+                src="react.svg"
+                alt="react"
+                width={68}
+                height={68}
               />
             </li>
             <li>
-              <img
-                className="w-28"
-                src="https://skillicons.dev/icons?i=html,css"
+            <Image
+                src="nextjs.svg"
+                alt="nextjs"
+                width={68}
+                height={68}
+              />
+            </li>
+            <li>
+            <Image
+                src="ts.svg"
+                alt="typescript"
+                width={68}
+                height={68}
+              />
+            </li>
+            <li>
+            <Image
+                src="tw.svg"
+                alt="tailwind"
+                width={68}
+                height={68}
+              />
+            </li>
+            <li>
+            <Image
+                src="html.svg"
+                alt="html"
+                width={68}
+                height={68}
+              />
+            </li>
+            <li>
+            <Image
+                src="css.svg"
+                alt="css"
+                width={68}
+                height={68}
               />
             </li>
           </u>
         </div>
       </div>
 
-      {/* about me */}
+      {/** about me */}
       <div className="lg:flex lg:gap-32 lg:px-24">
         <Image
           src="/about-img.jpg"
