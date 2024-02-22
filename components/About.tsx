@@ -90,7 +90,7 @@ const About = () => {
         <div className="text-center grid gap-4 lg:text-justify lg:h-[400px] lg:w-[600px] lg:py-auto">
           <h3 className="text-blue-600 uppercase font-semibold">About me</h3>
           <h2 className="text-3xl text-gray-900 font-semibold lg:pr-24 lg:text-lg">
-            React and .NET Developer based in Madrid, Spain. <span>📍</span>
+            React and .NET Developer based in Madrid, Spain. 📍
           </h2>
           <p className="text-gray-800 leading-normal">
             Hola, my name is Omar Ledesma. I'm working to become a Full Stack

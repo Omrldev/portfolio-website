@@ -10,7 +10,7 @@ const Hero = () => {
           <div className="text-center items-center md:text-left lg:mx-10 lg:max-w-md lg:pt-20">
             <h1 className=" font-bold text-4xl mb-6 mx-10 text-gray-900 sm:text-6xl md:text-7xl lg:text-[68px] lg:leading-tight lg:-mx-14">React and .NET Developer</h1>
             <p className="text-lg mb-7 text-gray-600 mx-3 lg:-mx-14">
-              Hola, I'm Omar Ledesma. A <span className="block lg:inline">Junior React and .NET</span> Developer based in Madrid, Spain. <span>📍</span>
+              Hola, I'm Omar Ledesma. A <span className="block lg:inline">Junior React and .NET</span> Developer based in Madrid, Spain. 📍
             </p>
 
             {/**git & linkedin icons */}
